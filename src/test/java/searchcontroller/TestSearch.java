@@ -66,7 +66,7 @@ public class TestSearch {
         SearchElements.TopSearch(driver).click();
 
         Thread.sleep(2000);
-        assertEquals("5",SearchElements.Singleclic(driver).getText());
+        assertEquals("Singleclic",SearchElements.Singleclic(driver).getText());
         SearchElements.Singleclic(driver).click();
 
 
