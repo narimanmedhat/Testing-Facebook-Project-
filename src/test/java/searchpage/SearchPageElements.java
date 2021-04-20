@@ -19,7 +19,8 @@ public class SearchPageElements {
 
     public WebElement TopSearch(WebDriver driver)
     {
-        return driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/div/div[2]/div[2]/div/div[2]/div/ul/li[1]/div/a"));
+          return driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div/ul/li[1]/div/a/div"));
+
     }
 
     public WebElement Singleclic(WebDriver driver)
